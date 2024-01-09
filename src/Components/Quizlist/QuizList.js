@@ -41,6 +41,7 @@ export function QuizList() {
 
 	const handlePrev = () => {
 		setStep((prevStep) => prevStep - 1);
+		setCorrectAnswersCount(null);
 	};
 
 	const handleNext = () => {
